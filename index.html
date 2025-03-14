@@ -3,19 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Strona</title>
+    <title>Prosta Strona</title>
     <style>
-        /* Stylowanie całej strony */
+        /* Tło z serduszkami za pomocą CSS */
         body {
             height: 100vh; /* 100% wysokości widocznej strony */
             margin: 0;
             display: flex;
             justify-content: center; /* Wyśrodkowanie poziome */
             align-items: center; /* Wyśrodkowanie pionowe */
-            background-image: url('https://i.pinimg.com/originals/ae/d1/c7/aed1c7ea709d38b1fa314a6a56a818bb.png'); /* Tło z serduszkami */
-            background-size: 50px 50px; /* Ustawienie rozmiaru serduszek w tle */
+            background-color: #ffe6e6; /* Kolor tła */
+            background-image: 
+                linear-gradient(45deg, #ff4d4d 25%, transparent 25%), 
+                linear-gradient(-45deg, #ff4d4d 25%, transparent 25%);
+            background-size: 50px 50px;
             font-family: Arial, sans-serif;
-            color: red; /* Kolor tekstu */
+            color: green; /* Kolor tekstu */
             text-align: center;
         }
 
@@ -27,6 +30,6 @@
     </style>
 </head>
 <body>
-    <h1>Kocham Cię Mame!</h1>
+    <h1>Dawaj ziomek zajaramy</h1>
 </body>
 </html>
